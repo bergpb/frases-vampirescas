@@ -1,2 +1,2 @@
 # frases-vampirescas
-Endpoint que retona frases vampirescas do Christian (Profanus) Cardoso.
+Endpoint que retona frases vampirescas do icônico Christian (Profanus) Cardoso.
