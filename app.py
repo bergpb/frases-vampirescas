@@ -4,7 +4,7 @@ from flask import Flask, jsonify, g
 
 app = Flask(__name__)
 
-__url__ = "https://gist.githubusercontent.com/bergpb/76f23a2aab91ff09660ae1319e0b6f56/raw"
+__url__ = "https://gist.githubusercontent.com/bergpb/76f23a2aab91ff09660ae1319e0b6f56/raw/frases_christian_profanus.txt"
 
 @app.before_request
 def before_request_func():
@@ -18,6 +18,6 @@ def index():
     data = {
         "success": True,
         "frase": g.frase,
-        "autor": "Cardoso, Christian (Profanus)"
+        "autor": "Profanus, Christian Cardoso"
     }
     return jsonify(data = data)
